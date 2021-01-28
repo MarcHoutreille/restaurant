@@ -5,12 +5,12 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(39, 39, 39);
 }
 
 a:hover {
     transition: 0.5s;
-    color: rgb(177, 10, 10);
+    color: rgb(194, 173, 173);
 }
 
 .jumbotron {
@@ -65,3 +65,7 @@ input[type=text], select, textarea {
   }
 
   .card {overflow:hidden;}
+
+  .central-card {
+      margin-left: 1000px;
+  }
