@@ -15,6 +15,7 @@
                 <section><!-- Logo and name go here-->
                     <section class="">
                         <img src="assets/Fat_Angelo's_Logo.png"  style="width:100px; padding-right: 15px;" class="inline"></img>
+                        <span style="font-size:8px;"></span>
                     </section> 
                 </section>
                 <section class="pb-3 text-center fw-bolder" > <!-- Links go here-->
@@ -27,31 +28,35 @@
             </section>
             <!-- main content wrapper-->
             <section class="col col-md-11 text-center bg-secondary" style="padding-top: 10px; height:1200px" >
-                
-                
-                <section class="">   
+                <div class="bg-light rounded-1 mt-3 mx-5 p-2"> <!-- Contact header-->
+                    If you have any suggestions or feedback, please contact us. <br>
+                    We will recontact you... maybe
+                </div>
+                <div class="formulaire">
+                    <form action="mailto:bigjim@piz.za">
+                  
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  
+                      <label for="country">Restaurant</label>
+                      <select id="restaurant" name="restaurant">
+                        <option value="london">London</option>
+                        <option value="bangkok">Bangkok</option>
+                        <option value="tokyo">Tokyo</option>
+                      </select>
+                  
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Tell us what's on your mind.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
 
-                    <!-- Jumbotron wrapper-->
-                    <section class="jumbotron text-white " style="padding-bottom: 150px; padding-top: 50px;">
-                        <h1 class="display-1">Decouvrez notre univers</h1>
-                        <p class="lead">Si vous aimez les pizzas, vous allez être servi.</p>
-                        <hr class="my-4">
-                        <p>Si vous n'appreciez pas les pizzas, passez votre chemin pauvre fou !</p>
-                        
-                    </section>
-
-                    <section class="d-flex flex-row" style="padding:5px;"> <!-- twin containers' container -->
-                            <!-- twin cont-->
-                            <section class="bg-light mx-1 py-3 rounded">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum eos, perspiciatis cumque quaerat, earum voluptatum voluptate rem molestiae debitis labore placeat? Sequi assumenda voluptatibus rem corrupti! Libero, iusto ea!
-                            </section>
-                            <section class="bg-light mx-1 py-3 px-1 rounded">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum eos, perspiciatis cumque quaerat, earum voluptatum voluptate rem molestiae debitis labore placeat? Sequi assumenda voluptatibus rem corrupti! Libero, iusto ea!
-                            </section>
-
-
-                    </section>
-            </section> 
+            </section>  
                 
 
             </section>
