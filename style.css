@@ -1,6 +1,20 @@
+
+body {
+    margin:0;
+    background-color: rgb(179, 179, 179);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .jumbotron {
+    object-fit: contain;
+    background-image: url(assets/ivan-torres-MQUqbmszGGM-unsplash.jpg) ;
     padding: 4rem 2rem;
     margin-bottom: 2rem;
-    background-color: purple;
+    background-color: rgb(41, 41, 41);
     border-radius: .3rem;  
+    
   }
