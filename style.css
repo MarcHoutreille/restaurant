@@ -1,6 +1,12 @@
 
+
 body {
     background-color: rgb(179, 179, 179);
+    
+}
+
+html {
+    margin:0;
 }
 
 a {
@@ -22,7 +28,9 @@ a:hover {
     border-radius: .3rem;  
     
   }
-
+.bg-body {
+    background-image: radial-gradient(circle, #e4d8b2 0%, #e4d8b2 100%);
+}
 .bg-1 {
     background-color: rgb(165, 145, 109);
 }
