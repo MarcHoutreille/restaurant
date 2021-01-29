@@ -93,3 +93,7 @@ input[type=text], select, textarea {
   .central-card {
       margin-left: 1000px;
   }
+
+  .fancy-text {
+    font-family: 'Marck Script', cursive;
+  }
