@@ -19,6 +19,22 @@ a:hover {
     color: rgb(194, 173, 173);
 }
 
+.color-pizza-1 {
+    background-color: #76451B;
+}
+
+.color-pizza-2 {
+    background-color: #CEB497;
+}
+
+.color-pizza-3 {
+    background-color: #C98734;
+}
+
+.color-pizza-4 {
+    background-color: #A99592;
+}
+
 .jumbotron {
     object-fit: contain;
     background-image: url(assets/ivan-torres-MQUqbmszGGM-unsplash.jpg) ;
