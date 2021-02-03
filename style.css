@@ -1,6 +1,12 @@
 
+
 body {
     background-color: rgb(179, 179, 179);
+    
+}
+
+html {
+    margin:0;
 }
 
 a {
@@ -13,6 +19,22 @@ a:hover {
     color: rgb(194, 173, 173);
 }
 
+.color-pizza-1 {
+    background-color: #76451B;
+}
+
+.color-pizza-2 {
+    background-color: #CEB497;
+}
+
+.color-pizza-3 {
+    background-color: #C98734;
+}
+
+.color-pizza-4 {
+    background-color: #A99592;
+}
+
 .jumbotron {
     object-fit: contain;
     background-image: url(assets/ivan-torres-MQUqbmszGGM-unsplash.jpg) ;
@@ -22,7 +44,9 @@ a:hover {
     border-radius: .3rem;  
     
   }
-
+.bg-body {
+    background-image: radial-gradient(circle, #e4d8b2 0%, #e4d8b2 100%);
+}
 .bg-1 {
     background-color: rgb(165, 145, 109);
 }
@@ -68,4 +92,8 @@ input[type=text], select, textarea {
 
   .central-card {
       margin-left: 1000px;
+  }
+
+  .fancy-text {
+    font-family: 'Marck Script', cursive;
   }

@@ -1,53 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Trattoria - Our Menu</title>
+    <title>Big Jim's - Our Menu</title>
     <link rel="stylesheet" href="style.css" class="style">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
 </head>
-<body  class="bg-secondary"> 
-    <section class="container" >
-        <section class="row" >
-            
-            <section class="col-12 col-md-1 bg-danger" > <!-- navigation wrapper -->
-                <section><!-- Logo and name go here-->
-                    <section class="">
-                        <img src="assets/bigjimlogo.png" alt="Big Jim's Pizza logo"  style="width:100px; padding-right: 20px;" class="inline"></img>
-                    </section> 
-                </section>
-                <section class="pb-3 text-center fw-bolder" > <!-- Links go here-->
-                    <a href="/index.html" class="text-uppercase">Home</a>
-                    <a href="/menu.html" class="text-uppercase">Menu</a>
-                    <a href="/gallery.html" class="text-uppercase">Gallery</a>
-                    <a href="/contact.html" class="text-uppercase">Contact</a>
-                    <a href="/aboutus.html" class="text-uppercase">About Us</a>
-                </section>
-            </section>
+
+<body class="color-pizza-2">
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom border-1 border-dark color-pizza-3">
+        <div class="container-fluid">
+            <img src="assets/bigjimlogo.png" class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav text-uppercase fw-bolder">
+                    <a class="nav-link " aria-current="page" href="/index.html">Home</a>
+                    <a class="nav-link" href="/gallery.html">Gallery</a>
+                    <a class="nav-link active" href="/menu.html">Our Menu</a>
+                    <a class="nav-link" href="/contact.html">Contact us</a>
+                    <a class="nav-link" href="/aboutus.html">Our Restaurants</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="container">
+        <section class="row">
+
+
             <!-- main content wrapper-->
-            <section class="col col-md-11" style="padding-top: 10px; height:1200px" >
+            <section class="col col-md-11" style="padding-top: 10px; height:1200px">
 
-                <section class="bg-white text-center px-1 py-1 rounded-3"><!-- menu header-->
+                <section class="color-pizza-2 text-center px-0 py-4 rounded-3 justify-content-left">
+                    <!-- menu header-->
 
-                    <span class="d-block">Here you will find an assorted list of our current menu.</span>
-                    <span class="d-block">Please check out our monthly specialties !</span>
+                    <span class="text-break fst-italic fs-4" style="">Here you will find an assorted list of our current menu.
+                        Please check out our monthly specialties !</span>
 
                 </section>
-                <section class="container"> <!-- menu here-->
-                    <section class="row my-2 mx-0"> 
-                        <div class="col-12 col-md-6 align-middle"  > <!--left container--> 
-                            <ul class="list-unstyled rounded-1 bg-light p-3 ">
-                                <p class="text-center fw-bold">Our Classics</p>
+                <section class="container">
+                    <!-- menu here-->
+                    <section class="row my-2 px-0 mx-0">
+                        <div class="col-12 col-md-6 align-middle">
+                            <!--left container-->
+                            <ul class="list-unstyled rounded-1 color-pizza-4 p-4 ">
+                                <p class="text-center fw-bold fancy-text fs-1">Our Classics</p>
                                 <li class="">
-                                    
-                                    <span class="fw-bold ">VEGAN SAN FILIPPO                                    </span>
-                                    <p class="fst-italic ">Tomato sauce, vegan mozzarella, peppers, courgettes and aubergines</p>
+
+                                    <span class="fw-bold ">VEGAN SAN FILIPPO </span>
+                                    <p class="fst-italic ">Tomato sauce, vegan mozzarella, peppers, courgettes and
+                                        aubergines</p>
                                     <p class="">13€</p>
 
                                 </li>
                                 <li class="">
-                                    <span class="fw-bold">SANTA CATERINA                                    </span>
+                                    <span class="fw-bold">SANTA CATERINA </span>
                                     <p class="fst-italic">Tomato sauce, mozzarella, salame Napoli, fresh chilli
                                         and parmesan </p>
                                     <p class="fst-italic">– Add aubergines 1.50 / olives 0.7</p>
@@ -55,36 +69,47 @@
 
                                 </li>
                                 <li class="">
-                                    <span class="fw-bold">SANTA BUFALINA                                    </span>
+                                    <span class="fw-bold">SANTA BUFALINA </span>
                                     <p class="fst-italic">Tomato sauce, buffalo mozzarella DOP and parmesan
-                                        </p>
-                                        <p class="fst-italic">– Add Parma ham 2.50</p>
+                                    </p>
+                                    <p class="fst-italic">– Add Parma ham 2.50</p>
                                     <p class>10€</p>
 
                                 </li>
                                 <li class="">
-                                    <span class="fw-bold">SAN GENNARO (Napoli)                                   </span>
+                                    <span class="fw-bold">SAN GENNARO (Napoli) </span>
                                     <p class="fst-italic">Tomato sauce, mozzarella, anchovies, black olives, capers
                                         and oregano</p>
                                     <p class="fst-italic">- Add garlic 0.70</p>
                                     <p class>9€</p>
 
                                 </li>
+                                <li class="">
+                                    <span class="fw-bold">SAN GIUSEPPE </span>
+                                    <p class="fst-italic">Mozzarella, smoked mozzarella, friarielli (wild broccoli)*,
+                                        free
+                                        range rare breed North Yorkshire pork sausage, parmesan</p>
+                                    <p class="fst-italic">NO tomato sauce – Add ‘nduja 2.50 / olives 0.70</p>
+                                    <p class>9€</p>
+
+                                </li>
                             </ul>
                         </div>
-                    
-                        <div class="col col-md mx-2"> <!-- right container-->
-                            
-                            <ul class="list-unstyled rounded-1 bg-light p-3">
-                                <p class="text-center fw-bold">Our Specials</p>
+
+                        <div class="col col-md mx-0">
+                            <!-- right container-->
+
+                            <ul class="list-unstyled rounded-1 color-pizza-4 p-3">
+                                <p class="text-center fw-bold fs-1 fancy-text">Our Specials</p>
                                 <li class="">
-                                    <span class="fw-bold">VEGAN SAN FILIPPO                                    </span>
-                                    <p class="fst-italic">Tomato sauce, vegan mozzarella, peppers, courgettes and aubergines</p>
+                                    <span class="fw-bold">VEGAN SAN FILIPPO </span>
+                                    <p class="fst-italic">Tomato sauce, vegan mozzarella, peppers, courgettes and
+                                        aubergines</p>
                                     <p class>10€</p>
 
                                 </li>
                                 <li class="">
-                                    <span class="fw-bold">SANT’ANNA                                  </span>
+                                    <span class="fw-bold">SANT’ANNA </span>
                                     <p class="fst-italic">Tomato sauce, mozzarella, cotto ham, artichokes, black olives
                                         and parmesan </p>
                                     <p class="fst-italic">– Add mushrooms 1.50</p>
@@ -92,15 +117,16 @@
 
                                 </li>
                                 <li class="">
-                                    <span class="fw-bold">SAN GIUSEPPE                                 </span>
-                                    <p class="fst-italic">Mozzarella, smoked mozzarella, friarielli (wild broccoli)*, free
+                                    <span class="fw-bold">SAN GIUSEPPE </span>
+                                    <p class="fst-italic">Mozzarella, smoked mozzarella, friarielli (wild broccoli)*,
+                                        free
                                         range rare breed North Yorkshire pork sausage, parmesan</p>
                                     <p class="fst-italic">NO tomato sauce – Add ‘nduja 2.50 / olives 0.70</p>
                                     <p class>9€</p>
 
                                 </li>
                                 <li class="">
-                                    <span class="fw-bold">SAN ROCCO                                   </span>
+                                    <span class="fw-bold">SAN ROCCO </span>
                                     <p class="fst-italic">Tomato sauce, burrata pugliese, pecorino romano DOP, roasted
                                         aubergines and wild rocket </p>
                                     <p class="fst-italic">– Add parma ham 2.50 / mozzarella 1.50</p>
@@ -108,7 +134,7 @@
 
                                 </li>
                                 <li class="">
-                                    <span class="fw-bold">SANTA PAOLA                                    </span>
+                                    <span class="fw-bold">SANTA PAOLA </span>
                                     <p class="fst-italic">Mozzarella, mushrooms, free range rare breed North Yorkshire
                                         pork sausage,’nduja</p>
                                     <p class="fst-italic">– NO tomato sauce – Add smoked burrata 2.5</p>
@@ -116,18 +142,22 @@
 
                                 </li>
                             </ul>
-                        </div> 
+                        </div>
 
                     </section>
                 </section>
-                
-                
-            </section> 
-                
+
 
             </section>
+
+
         </section>
     </section>
-    
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+
 </body>
+
 </html>
