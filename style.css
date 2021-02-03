@@ -1,12 +1,22 @@
 
 
 body {
-    
+  color:#725E5A;
     
 }
 
 html {
     margin:0;
+}
+
+.menu {
+  color:black;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 a {
@@ -24,7 +34,7 @@ a:hover {
 }
 
 .color-pizza-2 {
-    background-color: #CEB497;
+    background-color: #ECE9E8;
 }
 
 .color-pizza-3 {
@@ -32,7 +42,7 @@ a:hover {
 }
 
 .color-pizza-4 {
-    background-color: #A99592;
+    background-color: #C0B1AF;
 }
 
 .jumbotron {
@@ -88,7 +98,7 @@ input[type=text], select, textarea {
     margin-left: 10%;
     width:80%;
     border-radius: 5px;
-    background-color: rgb(165, 145, 109);
+    background-color: rgb(155, 151, 151);
     padding: 20px;
   }
 
