@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: rgb(179, 179, 179);
+    
     
 }
 
@@ -44,6 +44,10 @@ a:hover {
     border-radius: .3rem;  
     
   }
+
+.jumbotron img {
+    width:100px;
+}
 .bg-body {
     background-image: radial-gradient(circle, #e4d8b2 0%, #e4d8b2 100%);
 }
@@ -96,4 +100,9 @@ input[type=text], select, textarea {
 
   .fancy-text {
     font-family: 'Marck Script', cursive;
+  }
+
+  .gallery img{
+    height:350px;
+    width:auto;
   }
